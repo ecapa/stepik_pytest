@@ -12,3 +12,5 @@ def test_check_add_to_basket_btn(browser):
 	time.sleep(3)
 	
 	assert add_to_basket_btn.is_displayed(), "No Button"
+
+# pytest -v --tb=line --language=en test_main_page.py
