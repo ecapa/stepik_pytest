@@ -3,9 +3,9 @@
 
 *Внимание! Если при выполнении тестов Вы получаете следующую ошибку:*
 
-test_main_page.py:1: in <module>
-    from .pages.main_page import MainPage
-E   ImportError: attempted relative import with no known parent package
+test_main_page.py:1: in <module>\
+    from .pages.main_page import MainPage\
+E   ImportError: attempted relative import with no known parent package\
 
 *измените импорты. Вместо текущих*
 
